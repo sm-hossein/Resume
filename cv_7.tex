@@ -24,14 +24,14 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=0.90]{geometry} % Reduce document margins
+\usepackage[scale=0.9]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{2cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -92,23 +92,20 @@
 %----------------------------------------------------------------------------------------
 %	CURRICULUM VITAE
 %----------------------------------------------------------------------------------------
+\vspace*{-0.3cm}
 
 \makecvtitle % Print the CV title
 \vspace*{-1cm}
-%----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS SECTION
-%----------------------------------------------------------------------------------------
 
-\section{Skills}
 
-\cvitem{Computer Skills}{
-	Programming Languages: \textbf{C++, C, Python} \newline
-	Technologies: \textbf{Linux, Docker, Kubernetes, gRPC, OpenCV}
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+\section{Summary}
+
+\cvitem{}{Software Engineer with \textbf{over ten years of experience} in designing and developing high-performance software systems across various sectors. Expert in solving complex challenges and enhancing software efficiency through \textbf{advanced algorithms} and \textbf{parallel processing} techniques. Demonstrated track record of excellence, highlighted by prestigious awards in \textbf{programming competitions such as RoboCup and ICPC}.
 }
-	
-\cvitem{Analytical Skills}{\textbf{Data Structure, Design and Analysis of Algorithms, Design Patterns, System Design, Artificial Neural Networks, Genetic Algorithm, Reinforcement Learning, Image Processing}}
 
-%----------------------------------------------------------------------------------------
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -117,39 +114,34 @@
 \section{Experience}
 
 \cventry{2022--2024}{Senior Software Engineer}{\textsc{OVOU}}{Vancouver}{Canada}{ 
-OVOU Inc. specializes in digital business cards designed to optimize professional networking. In this role, my key contributions included:
 \begin{itemize}
-\item \textbf{Back Office System Design and Implementation:} Led the design and implementation of a comprehensive back-office system within Zoho tailored for the fulfillment team. This initiative significantly enhanced operational workflows and productivity.
-\item \textbf{Backend Development:} Worked on the backend team using Django and Django REST Framework to develop and maintain APIs. Responsibilities included refactoring existing code, implementing new API functionalities, and managing data migrations to improve data handling and system stability.
+\item \textbf{Back Office System Design and Implementation:} Led the design and implementation of a comprehensive back-office system within Zoho tailored for the fulfillment team. This initiative quadrupled operational efficiency, enhancing workflows and productivity by making processes \textbf{4x faster}.
+\item \textbf{Backend Development:} Worked on the backend team using Django to develop and maintain APIs. Responsibilities included refactoring existing code, implementing new API functionalities, and managing data migrations to improve data handling and system stability.
 \end{itemize}
 }
 %\subsection{Vocational}
 %\cventry{2021--Current}{Freelance Software Engineer}{\textsc{}}{Tehran, Iran}{}{}
 
 \cventry{2016--2021}{Senior Software Engineer}{\textsc{Cafe Bazaar}}{Tehran}{Iran}{ 
-Cafe Bazaar is Iran's leading consumer internet company, hosting the most popular smartphone application marketplace for Persian-speaking countries with over 40 million users.(C++, Python, Docker, Kubernetes, gRPC)
-%Cafe Bazaar is a leading consumer internet company in Iran that runs the first and the most popular smartphone application marketplace for Persian speaking countries. We connect millions of smartphone users, advertisers and application developers through our highly scalable and technology-based platforms such as Bazaar app store and Divar a platform for classified ads. Bazaar is serving more than 39 million Persian speaking people around the globe and Divar is the leading online classified ads in Iran receiving more than 400,000 listings per day, active listings'​ value is almost 6 percent of Iran's GDP.
-%\newline{}\newline{}
-%Detailed achievements:
 \begin{itemize}
-\item \textbf{Computer Vision Service Development:} Collaborated with Data Scientists to create and maintain machine learning models, playing a key role in back-end development for computer vision services.
-\item \textbf{Accuracy in POI Extraction:} Achieved a 98.5\% accuracy rate in extracting Points of Interest (POI) from images captured by street-imaging cars, utilizing a combination of automated models and human annotations.
-\item \textbf{Street Imaging Project Management:}  Led the "Street Imaging" project, developed a Windows application to handle image capture at 30 fps from three cameras on moving vehicles, and managed the acquisition and processing of over 200 million high-quality street images to enhance the "Balad" map's POI database.
+\item \textbf{Computer Vision Service Development:} Collaborated with data scientists to develop and maintain machine learning models for computer vision services, including a high-efficiency watermark detection system capable of processing 60 images per second. Played a pivotal role in the backend development, enhancing service performance.
+\item \textbf{Accuracy in POI Extraction:} Achieved a \textbf{98.5\% accuracy} rate in extracting Points of Interest (POI) from images captured by street-imaging cars, utilizing a combination of automated models and human annotations.
+\item \textbf{Street Imaging Project Management:}  Led the "Street Imaging" project, developed a Windows application to handle image capture at 30 fps from three cameras on moving vehicles, and managed the acquisition and processing of over \textbf{200 million high-quality street images} to enhance the "Balad" map's POI database.
 \end{itemize}
 }
 
 %------------------------------------------------
 
-\cventry{2014--2016}{Senior Software Engineer}{\textsc{Sabz Biomedicals}}{Tehran, Iran}{}{Designed and developed high-performance software for karyotyping and 2D gel image analysis in medical laboratories.
+\cventry{2014--2016}{Senior Software Engineer}{\textsc{Sabz Biomedicals}}{Tehran, Iran}{}{Developed high-performance software for karyotyping and 2D gel image analysis, significantly enhancing diagnostic capabilities in medical laboratories. This advanced toolset streamlined data processing, improved accuracy in genetic analysis, and supported critical research and clinical decisions.
 }
 
-\cventry{2007--2008}{Software Engineer}{\textsc{Pooya Fanavaran Kosar}}{Tehran, Iran}{}{Developed core of mobile(in-car) speed camera system in C++ % which installed on 76 police vehicles all around Iran.
+\cventry{2007--2008}{Software Engineer}{\textsc{Pooya Fanavaran Kosar}}{Tehran, Iran}{}{Engineered a high-performance mobile in-car speed camera system using C++, significantly boosting speed detection accuracy and system reliability. This innovation was recognized with the \textbf{first-place award in the Applied Research category at the Young Khwarizmi Festival}.
 }
 
-\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran, Iran}{}{Developed code to receive high-speed signals without loss from DSP boards to PC using C and Embedded-C.
+\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran, Iran}{}{Developed specialized code in C and Embedded-C to facilitate lossless high-speed signal transmission from DSP boards to PCs, enhancing data integrity and processing efficiency.
 }
 
-\cventry{2003--2016}{Computer Group Manager and Lecturer}{\textsc{Allameh Helli High School}}{Tehran, Iran}{}{Managed a team of 10 computer science teachers and taught courses in Programming, algorithms and data structures.
+\cventry{2003--2016}{Computer Group Manager and Lecturer}{\textsc{Allameh Helli High School}}{Tehran, Iran}{}{Managed a team of 10 computer science teachers and taught courses in programming, algorithms and data structures.
 }
 
 %\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran}{}{Programming on sundance dsp boards}
@@ -161,17 +153,17 @@ Cafe Bazaar is Iran's leading consumer internet company, hosting the most popula
 
 \section{Awards and Honors}
 
-\cventry{2005}{1st Place}{\textit{RoboCup 3D Soccer Simulation League}}{Osaka, Japan}{}{}
-\cventry{2007}{5th Team Rank}{\textit{ACM International Collegiate Programming Contest (West Asia Region)}}{Tehran, Iran}{}{}
+\cventry{2005}{World Championship Award}{\textit{RoboCup 2005}}{Osaka, Japan}{}{
+1st place among 32 international teams in 3D Soccer Simulation league}
+\cventry{2007, 2006, 2005}{5th, 6th, 6th Team Rank}{\textit{ACM ICPC West Asia Region Regional Contest}}{Tehran, Iran}{}{}
 
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
-
 \section{Education}
 
-\cventry{2013--2016}{MSc in Computer Science (Decision Sciences and Knowledge Engineering)}{The University of Tehran}{Tehran}{Iran}{Thesis: Development and Implementation of an Image to Speech System to be used in Persian language.}
+\cventry{2013--2016}{MSc in Computer Science}{The University of Tehran}{Tehran}{Iran}{Thesis: Development and Implementation of an Image to Speech System to be used in Persian language.}
 
 \cventry{2003--2009}{BSc in Computer Engineering}{Amirkabir University of Technology, Tehran Polytechnic}{Tehran}{Iran}{Thesis: Evaluation of reinforcement learning algorithms on control problems with delayed reward signals.}
 %\cventry{1999-2003}{Diploma in Mathematics and Physics}{Allameh Helli Highschool}{Tehran}{Iran}{Allameh Helli is the Tehran branch of NODET(National Organization for Development of Exceptional Talents).}
@@ -180,21 +172,29 @@ Cafe Bazaar is Iran's leading consumer internet company, hosting the most popula
 %	LANGUAGES SECTION
 %----------------------------------------------------------------------------------------
 
-\section{Languages}
-
-\cvitemwithcomment{}{
-\begin{tabular}{p{3cm} p{3cm} p{3cm}}
-English & Persian & Azerbaijani
-\end{tabular}
-}{}
+%\section{Languages}
+%
+%\cvitemwithcomment{}{
+%\begin{tabular}{p{3cm} p{3cm} p{3cm}}
+%English & Persian & Azerbaijani
+%\end{tabular}
+%}{}
 
 %\cvitemwithcomment{Persian}{Mother Tongue}{}
 %\cvitemwithcomment{Azerbaijani}{Mother Tongue}{}
 %\cvitemwithcomment{English}{Professional working proficiency}{}
 
 %----------------------------------------------------------------------------------------
-%	INTERESTS SECTION
+%	COMPUTER SKILLS SECTION
 %----------------------------------------------------------------------------------------
+\section{Skills}
+
+\cvitem{Computer Skills}{
+	Programming Languages: \textbf{C++, C, Python} \newline
+	Technologies: \textbf{Linux, Docker, Kubernetes, gRPC, OpenCV, Git, Django}
+}
+	
+\cvitem{Analytical Skills}{\textbf{Data Structure, Design and Analysis of Algorithms, Parallel Processing, Design Patterns, System Design, Artificial Neural Networks, Genetic Algorithm, Image Processing}}
 
 
 \end{document}
