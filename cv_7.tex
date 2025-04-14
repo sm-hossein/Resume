@@ -24,6 +24,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
+
 \documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
@@ -31,7 +32,8 @@
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
-\usepackage[scale=0.9]{geometry} % Reduce document margins
+\usepackage[scale=0.9, top=1.3cm, bottom=1.3cm]{geometry}
+%\usepackage[scale=0.9]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{2cm} % Uncomment to change the width of the dates column
 %\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
 
@@ -116,6 +118,7 @@
 \begin{itemize}
 \item \textbf{Back Office System Design and Implementation}: Led design and implementation of a back-office system that streamlined fulfillment workflows and made processes \textbf{4x faster}.
 \item \textbf{Backend Development}: Built and optimized \textbf{Django REST APIs} serving \textbf{100K+ users}, refactored legacy code, and led data migrations to improve performance, scalability, and system reliability.
+\item[$\triangleright$] \textit{Technologies:} Python, Django REST Framework, PostgreSQL, Docker, Kubernetes
 \end{itemize}
 }
 %\subsection{Vocational}
@@ -128,21 +131,31 @@
 \item \textbf{Street Imaging Project Management}:  Led the Street Imaging project, building multi-camera vehicle systems capturing 30 fps imagery, and processed \textbf{200M+ street images} to enrich Balad map's POI database.
 \item \textbf{Interview Process Improvement}: Improved the technical hiring process by refining candidate profiles, updating interview problems to reflect real-world challenges, and introducing questions targeting analytical and system design skills.
 \item \textbf{Mentorship \& Team Support}: Mentored and facilitated new team members, promoting skill growth, collaboration, and knowledge transfer.
+\item[$\triangleright$] \textit{Technologies:} Python, Django, gRPC, Kubernetes, Docker, PostgreSQL, C++, S3, Ceph, Linux, Parallel Processing
 \end{itemize}
 }
 
 %------------------------------------------------
 
-\cventry{2014--2016}{Senior Software Engineer}{\textsc{Sabz Biomedicals}}{Tehran, Iran}{}{Pioneered development of high-performance karyotyping and 2D gel analysis software, leading a small team and architecting core systems to improve lab diagnostics and genetic analysis accuracy.
+\cventry{2014--2016}{Senior Software Engineer}{\textsc{Sabz Biomedicals}}{Tehran, Iran}{}{Pioneered development of high-performance karyotyping and 2D gel analysis software, leading a small team and architecting core systems to improve lab diagnostics and genetic analysis accuracy.\\
+\textit{Technologies:} C++, Qt, OpenCV, Image Processing
 }
 
-\cventry{2007--2008}{Software Engineer}{\textsc{Pooya Fanavaran Kosar}}{Tehran, Iran}{}{Engineered a C++-based in-car speed camera system, boosting detection accuracy and reliability; earned 1st-Place Award in Applied Research at the Young Khwarizmi Festival.
+\cventry{2007--2008}{Software Engineer}{\textsc{Pooya Fanavaran Kosar}}{Tehran, Iran}{}{Engineered a C++-based in-car speed camera system, boosting detection accuracy and reliability; earned 1st-Place Award in Applied Research at the Young Khwarizmi Festival.\\
+\textit{Technologies:} C++, OpenCV, Socket Programming, Inter-Process Communication
 }
 
-\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran, Iran}{}{Developed specialized code in C and Embedded-C to facilitate lossless high-speed signal transmission from DSP boards to PCs, enhancing data integrity and processing efficiency.
+\cventry{2004--2006}{Software Engineer, RoboCup Team \textsc{Aria}}{\textsc{Amirkabir University of Technology}}{Tehran}{Iran}{
+Built real-time multi-agent systems in \textbf{C++} for the 3D Soccer Simulation League, developing autonomous strategy and coordination logic on Linux. Contributed to the team's success among \textbf{30+ international teams} in RoboCup competitions.\\
+\textit{Technologies:} C++, Linux, Multi-Agent Systems, Real-Time Systems, AI Strategy
 }
 
-\cventry{2003--2016}{Computer Group Manager and Lecturer}{\textsc{Allameh Helli High School}}{Tehran, Iran}{}{Managed a team of 10 computer science teachers and taught courses in programming, algorithms and data structures.
+\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran, Iran}{}{Developed specialized code in C and Embedded-C to facilitate lossless high-speed signal transmission from DSP boards to PCs, enhancing data integrity and processing efficiency.\\
+\textit{Technologies:} C, Embedded-C, DSP Framework, Real-Time Signal Processing, Semaphores, Parallel Processing
+}
+
+\cventry{2003--2016}{Computer Group Manager and Lecturer}{\textsc{Allameh Helli High School}}{Tehran, Iran}{}{Managed a team of 10 computer science teachers and taught courses in programming, algorithms and data structures.\\
+\textit{Technologies:} C++, Pascal, Algorithm Design, Data Structures, Discrete Mathematics, Graph Theory
 }
 
 %\cventry{2005}{Software Engineering Internship}{\textsc{Rabi Kosar}}{Tehran}{}{Programming on sundance dsp boards}

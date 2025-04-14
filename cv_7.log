@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2021.9.12)  14 APR 2025 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2021.9.12)  14 APR 2025 10:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -240,8 +240,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen113
 \Gm@layoutvoffset=\dimen114
 \Gm@dimlist=\toks20
-)
-(c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+
+
+Package geometry Warning: Over-specification in `v'-direction.
+    `height' (760.53699pt) is ignored.
+
+) (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
 (c:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -350,28 +354,28 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip67
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 66.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 66.
+Package hyperref Info: Option `breaklinks' set `true' on input line 68.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 68.
  (./cv_7.aux)
 \openout1 = `cv_7.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 68.
  (c:/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -403,7 +407,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 66.
+LaTeX Info: Redefining \microtypecontext on input line 68.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -418,7 +422,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 66.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 68.
 
 (c:/texlive/2016/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -437,14 +441,14 @@ Package microtype Info: Loading generic settings for font family
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(29.87721pt, 537.75343pt, 29.87723pt)
-* v-part:(T,H,B)=(33.80392pt, 760.53699pt, 50.70593pt)
+* v-part:(T,H,B)=(36.98866pt, 771.06952pt, 36.98866pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=537.75343pt
-* \textheight=760.53699pt
+* \textheight=771.06952pt
 * \oddsidemargin=-42.39278pt
 * \evensidemargin=-42.39278pt
-* \topmargin=-75.46606pt
+* \topmargin=-72.28133pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -463,7 +467,7 @@ Package microtype Info: Loading generic settings for font family
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box28
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 68.
 (c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -472,42 +476,42 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count108
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./cv_7.out) (./cv_7.out)
 \@outlinefile=\write3
 \openout3 = `cv_7.out'.
 
 \makecvtitledetailsbox=\box29
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 99.
  (c:/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 97.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 99.
 
 (c:/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 97.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 99.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 97.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 99.
 
 
 (c:/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 97.
+(Font)              <9> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 97.
+(Font)              <6> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 97.
+(Font)              <5> on input line 99.
 
 (c:/texlive/2016/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -516,54 +520,66 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 \makecvtitledetailswidth=\skip68
 \makecvtitlepicturewidth=\skip69
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 120.
+(Font)              <10> on input line 123.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <7> on input line 123.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 120.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 123.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 123.
+
+LaTeX Font Warning: Font shape `T1/lmss/bx/sc' undefined
+(Font)              using `T1/lmss/bx/n' instead on input line 151.
+
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 158.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 171.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
 [1
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
  (./cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
 (rerunfilecheck)             Checksum: 1E23DD58875CA9280125781E9522FBD6;388.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
  ) 
 Here is how much of TeX's memory you used:
- 12154 strings out of 493014
- 176561 string characters out of 6137001
- 402418 words of memory out of 5000000
- 15500 multiletter control sequences out of 15000+600000
- 60328 words of font info for 66 fonts, out of 8000000 for 9000
+ 12158 strings out of 493014
+ 176627 string characters out of 6137001
+ 403441 words of memory out of 5000000
+ 15504 multiletter control sequences out of 15000+600000
+ 63139 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 43i,11n,67p,772b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2016/tex
-mf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2016/texmf-dist/fonts/typ
-e1/public/lm/lmss10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss1
-2.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss17.pfb><c:/texlive/
-2016/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2016/texmf-dist/fon
-ts/type1/public/lm/lmssbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
-lm/lmsso10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:
-/texlive/2016/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (1 page, 199378 bytes).
+ 43i,12n,67p,772b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/texlive/2016/tex
+mf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<c:/texlive/2016/texmf-dist/fonts/type
+1/public/lm/lmcsc10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmmi9
+.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2
+016/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2016/texmf-dist/fon
+ts/type1/public/lm/lmss17.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm
+/lmss9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/t
+exlive/2016/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2016/texmf
+-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2016/texmf-dist/fonts/type1/
+public/marvosym/marvosym.pfb>
+Output written on cv_7.pdf (1 page, 203560 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
  20513 words of extra memory for PDF output out of 20736 (max. 10000000)
 
