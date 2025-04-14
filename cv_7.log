@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2021.9.12)  9 AUG 2024 10:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2021.9.12)  14 APR 2025 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,35 +521,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 97--97
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 107.
+(Font)              <10> on input line 120.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 107.
+(Font)              <7> on input line 120.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 121.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 120.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 157.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 200.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 158.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
 [1
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 200.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
  (./cv_7.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 200.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 200.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
-(rerunfilecheck)             Checksum: 1250921D38EC1A359BAEEB3231622EC4;466.
+(rerunfilecheck)             Checksum: 1E23DD58875CA9280125781E9522FBD6;388.
  ) 
 Here is how much of TeX's memory you used:
- 12160 strings out of 493014
- 176625 string characters out of 6137001
- 403446 words of memory out of 5000000
- 15501 multiletter control sequences out of 15000+600000
- 60538 words of font info for 68 fonts, out of 8000000 for 9000
+ 12154 strings out of 493014
+ 176561 string characters out of 6137001
+ 402418 words of memory out of 5000000
+ 15500 multiletter control sequences out of 15000+600000
+ 60328 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,11n,67p,772b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/texlive/2016/tex
@@ -560,10 +560,10 @@ e1/public/lm/lmss10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss1
 ts/type1/public/lm/lmssbx10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/
 lm/lmsso10.pfb><c:/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:
 /texlive/2016/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv_7.pdf (1 page, 202763 bytes).
+Output written on cv_7.pdf (1 page, 199378 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 20521 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 69 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 20513 words of extra memory for PDF output out of 20736 (max. 10000000)
 
